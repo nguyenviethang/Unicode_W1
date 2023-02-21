@@ -1,0 +1,135 @@
+cac nhom the block
+the danh sach:
+    theo thu tu: ol - li
+    khong theo thu tu: ul - li
+Cac the trong nhoms inline
+-phan lown khi lam viec voi html thi thuong dung cac the indlne, cac the block dc dung rat it
+
+the a: chen lien ket vao trang web
+
+- cu phap <a href="Link" title=" tieu de khi tro chuot" target="muc tieu mo"><?a>
+Link: dua dia chi website hoac URL co chua giao thuc http://, https://
+title: hay con goi la tootlit se hien thi khi tro chuot vao the a
+target:
++ blank: mo cua so trong tab moi
++ khong co gi hoac khong co thuoc tinh target hoac _self: mo cua so hien tai
+
+cac the inline, de de dang dieu khien, can chinh thi nen de trong the block, ve can ban khong phai can chinh the block day ma can chinh cac thanh phan ben trong the block day
+vidu:
+<a href="https://google.com" title="Google" target="_self" style=" text-align: center;">Google</a>
+    <p style=" text-align: center;"> <a href="https://google.com" title="Google" target="_self">Google</a></p> --> nen dung
+
+the a co the dung link tuong doi dan den cac file trong project 
+vidu:
+    <a href="unit01.html" target="_blank">bai 1</a>
+
+trong truong hop url chua xac dinh dc la gi thi nen dat dau #
+truong hop 2: dau # anh huong den cac thanh phan khac trong trang 
+vidu:
+
+<p style="text-align: center;">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+    </p>
+
+    <h2 id="about">About</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+
+
+    <h2 id="news">News</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+
+    <h2 id="product">Product</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quia suscipit alias, ipsam pariatur, ad assumenda
+        reprehenderit modi blanditiis ducimus debitis molestiae deleniti ipsa magnam excepturi dicta consectetur itaque
+        quod.</p>
+
+
+2. tim hieu the img: chen hinh anh vao trang web
+cu phap: <img src="http:// duong dan anh" title=" tieu de anh khi tro chuot"/ alt="noi dung khi anh bi loi" width="chieu rong" height="chieu cao">
+src: nhan duong dan anh tuong doi va tuyet doi
+title: nhan tieu de
+alt: nhan noi dung tieu de khi anh bi loi
+width: nhan chieu rong cua anh gom:
++ value: 1 so duong (ngam hieu don vi px)
++ value: % ty le voi chieu rong cau the bao quanh nos(cap gan nhat)
++ auto: tu dong lay kich thuoc goc cua anh
+
+luu y: moi quan he giua width va height
+- neu width duoc set, height de auto hoac hong duoc set => height se tu dong  thay doi ty le voi width va nguoc lai
+- ca with va height  deu duoc set=> Fix co dinh kich thuoc( de dan toi bi meo)
+thuong khi lam du an se khong fix co dinh, thuong chi fix width thoi, fix chieu cao rat kho, anh huong den repoship
+luu y khi dung img: anh khi set phai nho hon hoac bang anh kich thuoc goc, set to hon thi anh se vo hat(bi mo)
+
+ img la the inline, anh se xuong hang khi kich thuoc width lon hon hoac bang 100% dua vao the cha gan nhat
+
+ khai niem: duong dan tuong doi va tuyet doi
+1. duong dan tuyet doi: protocol + domain + port + path
+- protocol: giao thuc http hoac https 
+- domain: ten mien(gom phan ten va phan duoi)
+- port: Cong(Mac dinh 80 neu la http, 443 neu la https)
+- path: duong dan
++ duong dan khu vuc
++ duong dan toi file
+vidu: https://unicode.vn/images/khoa-hoc/anh1.jpg
+2. duong dan tuong doi
+- th1: File html va duong dan nam ngang hang voi nhau
+=> cu phap: duong_dan
+=> vidu: images/images01.jpg
+-th2: File html nam trong 1 folder khac(folder do nam ngang hang voi duong dan)
+=> cu phap: ./duong_dan
+=> vidu: ../images/images01.jpg
+=> luu y : Neu file html nam trong bao nhieu cap folder => Can them bay nhieu cap ../ 
+vidu2: ../../images/images01.jpg
+-th3: Neu muon truy cap vao thu muc goc cua cua project(root)
+=> cu phap: /duong_dan
+luu y khi lam viec voi duong dan tuong doi
+- chi viet duong dan toi cac file, folder trong thu muc goc
+- khi lam project nen chon duong dan tuong doi de lien ket.
