@@ -133,3 +133,4 @@ vidu2: ../../images/images01.jpg
 luu y khi lam viec voi duong dan tuong doi
 - chi viet duong dan toi cac file, folder trong thu muc goc
 - khi lam project nen chon duong dan tuong doi de lien ket.
+- lkien thuc ve duong dan tuong doi se ap dung tat ca cho cac phan sau
