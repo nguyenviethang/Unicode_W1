@@ -1,0 +1,18 @@
+/*phan cap cha con
+TH1: Phan cap khong gioi han(dung dau cach
+*/
+.content .item{
+    color: red;
+}
+#main .item{
+    color: green;
+}
+.product .product-title{
+    color: purple;
+}
+/*
+TH2: phan cap
+*/
+.news > .news-item > .news-detail {
+    color: blue;
+}

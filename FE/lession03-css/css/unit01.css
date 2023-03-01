@@ -1,0 +1,28 @@
+/* header begin */
+p{
+    color: red;
+}
+h2{
+    background-color: purple;
+    color: #fff;
+    font-style: italic;
+
+}
+/* header end */
+
+
+/*
+h2 => la selector
+background-color: thuoc tinh
+purple => gia tri
+*/
+ #text {
+    color: green;
+ }
+.title {
+    color: blueviolet;
+}
+h3{
+    color: green;
+    font-style: italic;
+}
