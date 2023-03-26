@@ -28,13 +28,13 @@ cu phap: chap nhan chu cai(thuong hoa), so, ngach duoi, ngang
  - phan biet su khac nhau giua class va id
  - trong 1 the html co the co nhieu class
  - do uu tien cua class thap hon id
-  - clss se tot hon cho viec ke thua css( tranh trung lap css de de nang cap bao tri)
+  - class se tot hon cho viec ke thua css( tranh trung lap css de de nang cap bao tri)
  2.id
  - trong 1 the html chi co 1 id
  - do uu tien cua id hon class
 - id se han che trong ciec ke thua css
 khi nao cung class? khi nao dung id?
-1. voi clss:
+1. voi class:
 - duoc dung pho bien trong tat ca cac truong hop 
 2. voi id:
 - muon do uu tien cao hon id

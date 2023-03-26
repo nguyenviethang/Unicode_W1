@@ -10,9 +10,57 @@ TH1: Phan cap khong gioi han(dung dau cach
 .product .product-title{
     color: purple;
 }
+/* co the di thang cap con nho nhat de viet css ma khong thong qua cap con phia tren */
+
 /*
 TH2: phan cap
 */
 .news > .news-item > .news-detail {
     color: blue;
 }
+/* doi mau link chi cap cha */
+.primary-menu > ul > li > a {
+    color: red;
+    text-decoration: none;
+}
+/* do background cho cap con */
+.primary-menu > ul ul{
+    background: green;
+}
+/* doi mau link cac cap con */
+.primary-menu > ul ul > li > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* > dau lon hon chi bieu thi tac dong css den cap duoi, khong duoc nhay coc và di theo tuan tu, con dau cách thì di thăng truc tiep dep cap mà css se được dung de tac dong */
+/* selector cung cap */
+div.block{
+    color: red;
+}
+p.block{
+    color: green;
+}
+.text.element#text{
+    color: blue;
+}
+.title.element#title{
+    color: aquamarine;
+}
+/* khai bao cung cap cang nhieu thi do uu tien cang cao */
+
+.products-box .product-item.feature{
+    color: red;
+    font-size: 2rem;
+
+}
+
+.products-box .product-item{
+    color: green;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+/* .products-box .product-item.feature{
+    color: red;
+    font-size: 2rem;
+
+} */
