@@ -1,0 +1,39 @@
+/* thuoc tinh color
+- tac dung: thay doi mau sac van ban
+cu phap: color: <value>
++color: ten thuoc tinh
++<value>: mau sac can thay doi
+
+value se nhan cac gia tri:
++ten mau (English) => chi dung cho cac mau co ban, pho bien
++ ma mau hexa(#+6 ki tu)  
+  neu 6 ki tu giong het nhau, chi can viet 3 ki tu 
++mau RGB: (rgb(number1,number2, number3)): rgb(255, 0, 0)
++mau hsl: hsl(0. 100%, 50%)
+
+cac cach lay ma mau:
++ dung colorpicker: VScode, trang web onlline, Extensions,.... 
+Extensions : colorzilla 
+dung qua devtool
+
+thiet lap Opacity cua color
++ dung Colorpicker cua devtool de giam opacity
++dung ColorPicker cua VScode de giam Opacity
++dungrgba(): rgba(number1, number2, number3, opacity)
+=> opacity trong rgba se nhan tu 0 den 1
++ mdung rgb(): rgb(number1 number2 number3/opacity)
+=>opacity trong rgb() se nhan ktu 0 den 100%
+*/
+/* .text {
+  color: rgba(255, 67, 0, 0.5);
+
+
+  luu y : tat cac ca thuoc tinh lien quan den mau sac de phai ap dung nguyen tac bai nay
+} */
+.text {
+    color: rgb(255  67 0/50%);
+}
+
+/* 
+
+*/

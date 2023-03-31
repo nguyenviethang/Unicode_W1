@@ -1,0 +1,32 @@
+/*
+thuoc tinh form-size:
+- tac dung: thay doi co chu trang web
+- cu phap: font-size: <value><unit>
+font-size: la ten thuoc tinh
+value: gia tri co chu
+unit: don vi
+cac don vi trong CSS
+- tuyet doi: 
++ pixel (px)
++ point (pt) 1 point = 1,3 pixel
+
+
+- tuong doi: 
++em => ke thua tu thanh phan cha gan nhat (1em = font-size thanh phan cha)
++rem => ke thua tu thanh phan mac dinh ban dau(1rem = font-size thanh phan mac dinh)
++% => ke thua tu thanh phan cha gan nhat(100% = font-size thanh phan cha)
++vh
++vw
+
+
+
+
+ */
+
+
+ .content {
+    font-size: 18px;
+ }
+.text {
+  font-size: 1em;
+}
