@@ -59,3 +59,33 @@
     border: none;
     color: red;
 }
+
+/* .content p:empty {
+    height: 5px;
+    background: red;
+} */
+/* .content p{
+    color: green;
+} */
+.content .hightlight {
+    color: green;
+}
+.list-position li:first-child{
+    color: red;
+    font-style: italic;
+
+}
+.list-position li:last-child{
+    color: green;
+    font-style: italic;
+
+}
+/*  khi dung first-child va last-child thi phai dung chung 1 selector moi co tac dung */
+.product-list .product-item:nth-child(2n+2){
+    color: red;
+
+}
+.product-list .product-item:nth-child(2n+1){
+    color: green;
+
+}
