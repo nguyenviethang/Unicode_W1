@@ -1,0 +1,16 @@
+lo trinh js
+ cu phap ngon ngu noi chung
+ su kien (even)
+ DOM
+ BOM
+ dac tinh cua js va xu ly bat dong bo (settimeout, callback, Async await, Promise...)
+ ES6
+
+ quy tac dat ten trong lap trinh 
+ 1. undercore  
+ vd: ten_bien  
+ 2. camelCase => pho bien   
+ vd: tenBien  
+ 3. PascalCase
+ vd: TenBien
+ 
