@@ -1,0 +1,14 @@
+cach viet cau dieu kien es6
+
+dieukien?ket_qua_dung:ket_qua_sai;
+
+
+vd:
+msg = number>=10?'thoa man dieu kien': 'khong thoa man dieu kien';
+
+console.log(msg);
+
+luu y:
+- gan voi 1 bieu thuc(gan, in ket qua)
+- khong gan voi mot bieu thuc tinh toan???
+- co the dung cach viet tren de in ket qua

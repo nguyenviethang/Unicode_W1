@@ -17,16 +17,30 @@ cac don vi trong CSS
 +% => ke thua tu thanh phan cha gan nhat(100% = font-size thanh phan cha)
 +vh
 +vw
+/* cac gia tri ke thua(ap dung voi tat ca cac thuoc tinh */
+/* 
+- inherit -> ke thua theo thanh phan cha gan nhat
+- initial -> ke thua theo mac dinh trinh dhuyet (khong bi ke thua tu selector html)
+- unset -> huy bo gia tri thuoc tinh da set
+
+*/
 
 
 
 
  */
 
-
- .content {
-    font-size: 18px;
+ html {
+  font-size: 18px;
+  color: red;
  }
+body {
+  font-size: 20px;
+}
+.content {
+  font-size: 18px;
+}
 .text {
-  font-size: 1em;
+  font-size: unset;
+
 }

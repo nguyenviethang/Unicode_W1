@@ -1,0 +1,32 @@
+@import "reset.css";
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.text {
+    font-style: italic;
+}
+
+.text {
+    font-weight: 900;
+}
+/* note
+font-style -> thuoc tinh dung nghieng
+value:
+- normal: gia tri mac dinh
+- itallic: chu nghieng
+- viec thay doi kieu chu se phu thuoc vao font chu
+
+
+
+font-weight: do dam nhat font chu
+value:
+++ normal: mac dinh
+++100, 200, 300..... => phu thuoc vao trinh duyet
+++bold
+++bolder
+
+*/
+ 

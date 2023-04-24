@@ -4,7 +4,9 @@ lo trinh js
  DOM
  BOM
  dac tinh cua js va xu ly bat dong bo (settimeout, callback, Async await, Promise...)
+ datatype: string, array, object, number,...  -> the manh object
  ES6
+ ajax: call data tu server
 
  quy tac dat ten trong lap trinh 
  1. undercore  
@@ -13,4 +15,44 @@ lo trinh js
  vd: tenBien  
  3. PascalCase
  vd: TenBien
+
+
+ chuong trinh se doc tu tren xuong duoi, tu trai sang phai trong file js doi voi bien
+ con doi voi ham so thi chi nhan gia tri dau tien
  
+ noi bien trong js dung toan tu +
+
+ luu y phan noi bien: khi gan bien trong js la mot chuoi => chi chap nhan tren 1 dong, nen tach ra thanh tung bien va noi chung lai 
+
+ vidu: 
+ <div class="the_title">
+    <h1>lorem jdsahfjahjkfafsdf</h1>
+</div>
+
+var titleHtml = '<div class="the_title">';
+titleHtml  = titleHtml + '<h1>lorem jdsahfjahjkfafsdf</h1>';
+titleHtml = titleHtml + '</div>';
+
+Document.write(titleHtml);
+
+
+cach khac: dung dau huyen, an phim gan nut esc
+
+var postTitle = ` <div class="the_title">
+    <h1>lorem jdsahfjahjkfafsdf</h1>
+</div>`;
+
+
+cach khac
+
+title = 'tu hoc lap trinh hieu qua';
+var link = 'https://vnexpress.net/';
+var postTitle = '<div class="post_title">
+<h2><a href="${link}">${title}</a></h2>
+</div>`;
+document.write(postTitle);
+
+
+cách chạy file js không can dùng live server
+b1: bật terminar tại thu mục chứa file js:
+b2: node ten_file.js
