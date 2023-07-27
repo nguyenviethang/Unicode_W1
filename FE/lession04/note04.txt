@@ -1,2 +1,0 @@
-thanh phan gia trong css:
--khi su dung before va after thi phai dung thuoc tinh content(neu khong co=> before va after khong ton tai )
